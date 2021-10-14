@@ -1,6 +1,6 @@
 const humanCatDogYears = number => {
   const human = number;
-  
+
   const cat = number => {
     let countCat = 0;
     if (number === 1) {

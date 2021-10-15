@@ -18,5 +18,6 @@ describe("getEmployerRole", () => {
     ];
 
     expect(getEmployerRole("Satti", employees)).toBe("Developer");
+    expect(getEmployerRole("Javid", employees)).toBe("Human Recommended Reading Assistant");
   });
 });
